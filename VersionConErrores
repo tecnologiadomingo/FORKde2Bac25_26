@@ -1,6 +1,6 @@
 function formatSheet() {
-  // 1. Error de variable (falta 's' en Active)
-  var sheet = SpreadsheetApp.getActiveSheet(); 
+  // 1. Error de variable (falta 's' en Active). Cambiado solo en el Fork
+  var sheet = SpreadsheetApp.getActivesSheet(); 
   
   // 2. Rango mal definido (faltan comillas)
   var range = sheet.getRange(A1:D10); 
